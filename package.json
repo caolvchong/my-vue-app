@@ -1,0 +1,24 @@
+{
+  "name": "my-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdx-js/vue": "^2.3.0",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@mdx-js/rollup": "^2.3.0",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "@vue/babel-plugin-jsx": "^1.1.1",
+    "remark-gfm": "^3.0.1",
+    "vite": "^4.2.0"
+  }
+}
